@@ -1,0 +1,23 @@
+current directory: /home/ladebug/Development/code/sinatra-fwitter-group-project/vendor/bundle/ruby/2.6.0/gems/thin-1.8.1/ext/thin_parser
+/home/ladebug/.rvm/rubies/ruby-2.6.1/bin/ruby -I /home/ladebug/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0 -r ./siteconf20210805-19330-d418ac.rb extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+current directory: /home/ladebug/Development/code/sinatra-fwitter-group-project/vendor/bundle/ruby/2.6.0/gems/thin-1.8.1/ext/thin_parser
+make "DESTDIR=" clean
+
+current directory: /home/ladebug/Development/code/sinatra-fwitter-group-project/vendor/bundle/ruby/2.6.0/gems/thin-1.8.1/ext/thin_parser
+make "DESTDIR="
+compiling parser.c
+parser.c:31:18: warning: ‘http_parser_en_main’ defined but not used [-Wunused-const-variable=]
+   31 | static const int http_parser_en_main = 1;
+      |                  ^~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling thin.c
+linking shared-object thin_parser.so
+
+current directory: /home/ladebug/Development/code/sinatra-fwitter-group-project/vendor/bundle/ruby/2.6.0/gems/thin-1.8.1/ext/thin_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 thin_parser.so ./.gem.20210805-19330-1psq0pz

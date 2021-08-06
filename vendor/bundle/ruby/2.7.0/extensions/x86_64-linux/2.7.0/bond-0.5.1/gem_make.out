@@ -1,0 +1,16 @@
+current directory: /home/ladebug/Development/code/sinatra-fwitter-group-project/vendor/bundle/ruby/2.7.0/gems/bond-0.5.1/ext/readline_line_buffer
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20210801-25978-tnxo54.rb extconf.rb
+
+current directory: /home/ladebug/Development/code/sinatra-fwitter-group-project/vendor/bundle/ruby/2.7.0/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: /home/ladebug/Development/code/sinatra-fwitter-group-project/vendor/bundle/ruby/2.7.0/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR="
+echo "This is a dummy extension"
+This is a dummy extension
+
+current directory: /home/ladebug/Development/code/sinatra-fwitter-group-project/vendor/bundle/ruby/2.7.0/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR=" install
+echo "This is a dummy extension"
+This is a dummy extension
